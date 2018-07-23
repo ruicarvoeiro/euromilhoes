@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" >
+<meta content="text/html; charset=utf-8">
+<title>Santa Casa</title>
+<script src="jogoEuromilhoes.js"></script>
+<script src="Euromilhoes.js"></script>
+</head>
+<body>
+<img src="pagina_inicial\jogos_santa_casa.png" width="15%"><br>
+<h1>Euromilhões</h1>
+<form id="idDescricao">
+    <h3>Como jogar</h3>
+    <ul>
+        <li>Clique em 5 numeros e 2 estrelas;</li>
+        <li>Se tambem quiser jogar ao joker basta colocar um visto;</li>
+        <li>Quando carregar em Confirmar Aposta irá aparecer uma zona de resposta onde lhe é dito se o que acertou;</li>
+    </ul>
+    <h4>Ver como jogar</h4>
+    <video src="euro.mp4" type="video/mp4" width="640px" controls></video><br>
+    <input type="button" id="idBtnDescricao" value="JOGAR!">
+</form>
+<form id="idEscolhas">
+    <h2>Faça a sua aposta no Euromilhões</h2>
+    <h4>Escolha 5 Numeros</h4>
+    <table border="1" summary="JogarEuromilhoesNumeros">
+        <thead>
+            <tr>
+                <th colspan= "5">Numeros</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="button" value="  1" id="idEn1"></td>
+                <td><input type="button" value="  2" id="idEn2"></td>
+                <td><input type="button" value="  3" id="idEn3"></td>
+                <td><input type="button" value="  4" id="idEn4"></td>
+                <td><input type="button" value="  5" id="idEn5"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="  6" id="idEn6"></td>
+                <td><input type="button" value="  7" id="idEn7"></td>
+                <td><input type="button" value="  8" id="idEn8"></td>
+                <td><input type="button" value="  9" id="idEn9"></td>
+                <td><input type="button" value="10" id="idEn10"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="11" id="idEn11"></td>
+                <td><input type="button" value="12" id="idEn12"></td>
+                <td><input type="button" value="13" id="idEn13"></td>
+                <td><input type="button" value="14" id="idEn14"></td>
+                <td><input type="button" value="15" id="idEn15"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="16" id="idEn16"></td>
+                <td><input type="button" value="17" id="idEn17"></td>
+                <td><input type="button" value="18" id="idEn18"></td>
+                <td><input type="button" value="19" id="idEn19"></td>
+                <td><input type="button" value="20" id="idEn20"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="21" id="idEn21"></td>
+                <td><input type="button" value="22" id="idEn22"></td>
+                <td><input type="button" value="23" id="idEn23"></td>
+                <td><input type="button" value="24" id="idEn24"></td>
+                <td><input type="button" value="25" id="idEn25"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="26" id="idEn26"></td>
+                <td><input type="button" value="27" id="idEn27"></td>
+                <td><input type="button" value="28" id="idEn28"></td>
+                <td><input type="button" value="29" id="idEn29"></td>
+                <td><input type="button" value="30" id="idEn30"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="31" id="idEn31"></td>
+                <td><input type="button" value="32" id="idEn32"></td>
+                <td><input type="button" value="33" id="idEn33"></td>
+                <td><input type="button" value="34" id="idEn34"></td>
+                <td><input type="button" value="35" id="idEn35"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="36" id="idEn36"></td>
+                <td><input type="button" value="37" id="idEn37"></td>
+                <td><input type="button" value="38" id="idEn38"></td>
+                <td><input type="button" value="39" id="idEn39"></td>
+                <td><input type="button" value="40" id="idEn40"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="41" id="idEn41"></td>
+                <td><input type="button" value="42" id="idEn42"></td>
+                <td><input type="button" value="43" id="idEn43"></td>
+                <td><input type="button" value="44" id="idEn44"></td>
+                <td><input type="button" value="45" id="idEn45"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="46" id="idEn46"></td>
+                <td><input type="button" value="47" id="idEn47"></td>
+                <td><input type="button" value="48" id="idEn48"></td>
+                <td><input type="button" value="49" id="idEn49"></td>
+                <td><input type="button" value="50" id="idEn50"></td>
+            </tr>
+        </tbody>
+    </table><br>
+    
+    <h4>Escolha 2 Estrelas</h4>
+    
+    <table border="1" summary="JogarEuromilhoesEstrelas">
+        <thead>
+            <tr>
+                <th colspan= "3">Estrelas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="button" value="  1" id="idEe1"></td>
+                <td><input type="button" value="  2" id="idEe2"></td>
+                <td><input type="button" value="  3" id="idEe3"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="  4" id="idEe4"></td>
+                <td><input type="button" value="  5" id="idEe5"></td>
+                <td><input type="button" value="  6" id="idEe6"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="  7" id="idEe7"></td>
+                <td><input type="button" value="  8" id="idEe8"></td>
+                <td><input type="button" value="  9" id="idEe9"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="10" id="idEe10"></td>
+                <td><input type="button" value="11" id="idEe11"></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table><br>
+</form>
+<form id="idApostas">
+    <h4>As suas apostas:</h4>
+    <ul>
+        <li>A sua aposta é: <section id="idFeedBackApostaE"></section></li>
+        <input type='button' value='Apagar aposta' id='idBtnApagar'>
+    </ul>
+    <label for="idCheckJoker">Joker?</label>
+    <input type="checkbox" id="idCheckJoker"><br>
+     
+    <label for="idFeedBackJoker">Seu joker: </label>
+    <section id="idFeedBackJoker"></section><br>
+    
+    <input type="button" value="Confirmar aposta" id="idBtnConfirmarAposta">
+</form>
+
+<form id = "idResultado">
+    <hr>
+    <h4>Resultado</h4>
+    <ul>
+        <section id="idRespostaEuro"></section>
+    </ul>
+</form>
+
+<hr>
+
+<form id="idGeral">
+    <p><a href="Geral.html">Home</a><sub> RJ@ Faliu e Falidos - Jogos Santa Casa </sub></p>   
+</form>
+</body>
+</html>
